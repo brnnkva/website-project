@@ -20,6 +20,7 @@ a {
 }
 a:hover {
   color: #c83a32;
+  transition: all 200ms ease-in-out;
 }
 
 .container {
