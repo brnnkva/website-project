@@ -46,7 +46,7 @@ a:hover {
 }
 
 .navigation {
-  margin: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -55,7 +55,6 @@ a:hover {
   text-align: center;
   display: inline-block;
 }
-
 .breadcrumb-item {
   font-size: 30px;
   font-weight: 800;
