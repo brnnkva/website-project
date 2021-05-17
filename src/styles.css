@@ -1,0 +1,28 @@
+h1 {
+  color: #e6e4e4;
+  font-weight: 800;
+  font-size: 60px;
+  display: inline-block;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("https://images.pexels.com/photos/6819587/pexels-photo-6819587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: 10% 80%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 350px;
+  width: 100%;
+}
+
+.main-title {
+  position: relative;
+  top: 60%;
+  left: 40%;
+}
