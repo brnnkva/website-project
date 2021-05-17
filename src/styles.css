@@ -1,8 +1,21 @@
 h1 {
-  color: #e6e4e4;
+  color: #f1efef;
   font-weight: 800;
   font-size: 60px;
   display: inline-block;
+}
+
+li {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -23,6 +36,20 @@ h1 {
 
 .main-title {
   position: relative;
-  top: 60%;
-  left: 40%;
+  top: 75%;
+  text-align: center;
+}
+
+.navigation {
+  margin: 20px;
+}
+
+.breadcrumb {
+  text-align: center;
+}
+
+.breadcrumb-item {
+  color: black;
+  font-size: 35px;
+  font-weight: 800;
 }
