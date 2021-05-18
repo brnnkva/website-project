@@ -14,15 +14,6 @@ li {
   cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-a:hover {
-  color: #c83a32;
-  transition: all 200ms ease-in-out;
-}
-
 .container {
   max-width: 100%;
   margin: 0;
@@ -50,12 +41,21 @@ a:hover {
   text-align: center;
 }
 
-.breadcrumb {
+.nav {
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
 }
-.breadcrumb-item {
+.nav-item {
   font-size: 30px;
   font-weight: 800;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+}
+.nav-link:hover {
+  color: #c83a32;
+  transition: all 200ms ease-in-out;
 }
