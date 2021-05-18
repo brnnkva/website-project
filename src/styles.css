@@ -59,3 +59,17 @@ li {
   color: #c83a32;
   transition: all 200ms ease-in-out;
 }
+
+.signature {
+  font-size: 12px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  margin: 0 auto;
+  align-content: space-between;
+  background: chocolate;
+  max-width: 65%;
+  padding: 15px;
+}
