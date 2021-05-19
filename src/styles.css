@@ -5,13 +5,26 @@ h1 {
   display: inline-block;
 }
 
-li {
+ul li {
   text-transform: uppercase;
   display: inline-block;
   margin: 10px 0;
   padding: 10px 20px;
   transition: all 200ms ease-in-out;
   cursor: pointer;
+}
+
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol li {
+  margin: 10px auto;
+}
+
+img {
+  border-radius: 5px;
 }
 
 .container {
@@ -71,8 +84,8 @@ li {
   display: flex;
   margin: 0 auto;
   align-content: space-between;
-  text-align: center;
   background: rgb(156, 35, 26, 0.6);
   max-width: 83%;
-  padding: 15px;
+  padding: 20px;
+  text-align: justify;
 }
