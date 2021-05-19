@@ -18,12 +18,13 @@ li {
   max-width: 100%;
   margin: 0;
   padding: 0;
+  background: #3e464c;
 }
 
 .header {
-  background-image: url("https://images.pexels.com/photos/6819587/pexels-photo-6819587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.unsplash.com/photo-1555400113-4961f30f68bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
   background-size: cover;
-  background-position: 10% 80%;
+  background-position: 10% 40%;
   background-repeat: no-repeat;
   margin: 0 auto;
   height: 350px;
@@ -66,10 +67,12 @@ li {
 }
 
 .content {
+  border-radius: 15px;
   display: flex;
   margin: 0 auto;
   align-content: space-between;
-  background: chocolate;
-  max-width: 65%;
+  text-align: center;
+  background: rgb(156, 35, 26, 0.6);
+  max-width: 83%;
   padding: 15px;
 }
