@@ -5,16 +5,20 @@ h1 {
   display: inline-block;
 }
 
-ul li {
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 10px 0;
-  padding: 10px 20px;
-  transition: all 200ms ease-in-out;
-  cursor: pointer;
+h4 {
+  font-size: 25px;
+  font-weight: 800;
+  display: block;
+  margin: 0;
+  line-height: 32px;
 }
 
-ol {
+div {
+  display: block;
+}
+
+ol,
+ul {
   list-style: none;
   padding-left: 0;
 }
@@ -25,6 +29,11 @@ ol li {
 
 img {
   border-radius: 5px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .container {
@@ -60,9 +69,16 @@ img {
   text-align: center;
   display: inline-block;
 }
+
 .nav-item {
   font-size: 30px;
   font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -88,4 +104,22 @@ img {
   max-width: 83%;
   padding: 20px;
   text-align: justify;
+}
+
+.festivals-list {
+  margin: 16px auto;
+  text-transform: uppercase;
+}
+
+.festival-name {
+  background: #1d1c1c;
+  color: #f1e3e3;
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 8px 6px;
+  margin: 3px 0;
+  border-radius: 3px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
