@@ -1,9 +1,9 @@
 h4 {
+  display: block;
   font-size: 25px;
   font-weight: 800;
-  display: block;
-  margin: 10px 0;
   line-height: 32px;
+  margin: 10px 0;
 }
 
 div {
@@ -14,10 +14,6 @@ ol,
 ul {
   list-style: none;
   padding-left: 0;
-}
-
-ol li {
-  margin: 10px auto;
 }
 
 img {
@@ -35,6 +31,10 @@ small {
   font-weight: 800;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 100%;
   margin: 0;
@@ -47,8 +47,8 @@ small {
   background-size: cover;
   background-position: 10% 40%;
   background-repeat: no-repeat;
-  margin: 0 auto;
   height: 350px;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -57,26 +57,20 @@ small {
   text-align: center;
 }
 
-.nav {
-  padding: 5px 20px;
-  text-align: center;
-  display: inline-block;
-}
-
+.nav,
 .nav-item {
-  font-size: 30px;
-  font-weight: 800;
-  text-transform: uppercase;
   display: inline-block;
-  margin: 10px 0;
-  padding: 10px 20px;
-  transition: all 300ms ease-in-out;
-  cursor: pointer;
+  padding: 5px 20px;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: rgb(7, 7, 7);
+  color: #020202;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 10px 0;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 .nav-link:hover {
   color: #c83a32;
@@ -84,9 +78,9 @@ small {
 }
 
 .content {
+  align-content: space-between;
   display: flex;
   margin: 0 auto;
-  align-content: space-between;
   max-width: 83%;
   padding: 20px;
 }
@@ -129,12 +123,12 @@ small {
 
 .read-more {
   color: #212629;
-  text-decoration: none;
   transition: all 300ms ease-in-out;
 }
 .read-more:hover {
   color: #f1e3e3;
 }
+
 .signature {
   font-size: 12px;
   text-align: center;
