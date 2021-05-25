@@ -46,8 +46,9 @@ tombSweepingFestival.addEventListener("click", updateFestival1);
         document.querySelector("#festivalInformation").innerHTML = 
         `Occurring on the 15th day of the 8th month of the lunar calendar—the night of the full moon—Mid-Autumn Festival serves as China’s harvest celebration.
         <br>
-        Family gatherings are an essential part of the Mid-Autumn Festival, somewhat like American Thanksgiving. 
+        Family gatherings are an essential part of the Mid-Autumn Festival, like American Thanksgiving. 
         For Chinese families, this is a time of coming together with loved ones to pray and be thankful for a good harvest and good fortune.
+        <br>
        One of the iconic activities is eating mooncakes. A bakery product made with fillings such as lotus seed paste or red beans, mooncakes are a delicacy. 
        During this festival, it’s customary to gift mooncakes to friends and acquaintances.`;
     }
