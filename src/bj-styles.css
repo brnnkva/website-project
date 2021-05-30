@@ -43,3 +43,9 @@ div {
   font-size: 31px;
   transition: all 300ms ease-in-out;
 }
+
+.content {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 20px;
+}
