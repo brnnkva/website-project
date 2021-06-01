@@ -6,20 +6,19 @@ div {
   max-width: 100%;
   margin: 0;
   padding: 0;
-  background: #beac9a;
+  background: #274251;
 }
 
 .header {
-  background-image: url("https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-image: url("https://images.unsplash.com/photo-1515981590392-502e83bbf224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
-  background-position: 10% 40%;
+  background-position: 10% 60%;
   background-repeat: no-repeat;
   height: 350px;
   margin: 0 auto;
   width: 100%;
 }
 .navigation {
-  margin-bottom: 5px;
   text-align: center;
 }
 
@@ -30,7 +29,7 @@ div {
 }
 
 .nav-link {
-  color: #020202;
+  color: #595f6d;
   font-size: 30px;
   font-weight: 800;
   margin: 10px 0;
@@ -39,9 +38,11 @@ div {
   cursor: pointer;
 }
 .nav-link:hover {
-  color: #991d17;
-  font-size: 31px;
+  color: #3f7fb1;
   transition: all 300ms ease-in-out;
+}
+.nav-link:focus {
+  color: #595f6d;
 }
 
 .content {
