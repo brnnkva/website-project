@@ -2,6 +2,11 @@ div {
   display: block;
 }
 
+h3 {
+  text-align: center;
+  color: #d6d6d6;
+}
+
 .container {
   max-width: 100%;
   margin: 0;
@@ -45,8 +50,25 @@ div {
   color: #595f6d;
 }
 
+.active {
+  color: #3c88c2;
+}
 .content {
   margin: 0 auto;
   max-width: 90%;
   padding: 20px;
+}
+
+.col-6 p {
+  text-align: center;
+  color: #d6d6d6;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 5px 3px;
+}
+
+.col-6 img {
+  border-radius: 10px;
 }

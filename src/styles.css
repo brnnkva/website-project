@@ -80,6 +80,10 @@ a {
   color: #020202;
 }
 
+.active {
+  color: #b3261f;
+}
+
 .content {
   align-content: space-between;
   display: flex;
