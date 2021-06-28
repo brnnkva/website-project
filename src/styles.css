@@ -36,14 +36,10 @@ a {
 }
 
 i {
-  font-size: 15px;
+  font-size: 19px;
   color:#181414;
 }
 
-span {
-  color: #b3261f;
-  font-weight: 700;
-}
 .container {
   max-width: 100%;
   margin: 0;
@@ -139,6 +135,11 @@ span {
 }
 
 .signature {
+ text-align: center;
+}
+
+.name {
   font-size: 12px;
-  text-align: center;
+  color: #af2922;
+  font-weight: 700;
 }
