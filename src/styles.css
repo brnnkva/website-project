@@ -35,6 +35,15 @@ a {
   text-decoration: none;
 }
 
+i {
+  font-size: 15px;
+  color:#181414;
+}
+
+span {
+  color: #b3261f;
+  font-weight: 700;
+}
 .container {
   max-width: 100%;
   margin: 0;
