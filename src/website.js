@@ -73,7 +73,7 @@ tombSweepingFestival.addEventListener("click", updateFestival1);
     function updateFood2() {
         document.querySelector("#foodTitle").innerHTML = `Chao mian`;
         document.querySelector("#foodInformation").innerHTML = 
-        `Chao mian or <i>Chow mein</i> are Chinese stir-fried noodles with vegetables and sometimes meat or tofu. The name is a romanization of the Taishanese chāu-mèn. 
+        `Chao mian or Chow meinare Chinese stir-fried noodles with vegetables and sometimes meat or tofu. The name is a romanization of the Taishanese chāu-mèn. 
         The dish is popular throughout the Chinese diaspora and appears on the menus of most Chinese restaurants abroad.`;
     }
     let chaomianFood = document.querySelector("#chaomian");
@@ -82,7 +82,7 @@ tombSweepingFestival.addEventListener("click", updateFestival1);
     function updateFood3() {
         document.querySelector("#foodTitle").innerHTML = `Kung Pao Chicken`;
         document.querySelector("#foodInformation").innerHTML = 
-        `Kung Pao chicken, also transcribed <i>Gong Bao or Kung Po</i>, is a spicy, stir-fried Chinese dish made with cubes of chicken, peanuts, vegetables, and chili peppers. 
+        `Kung Pao chicken, also transcribed Gong Bao or Kung Po is a spicy, stir-fried Chinese dish made with cubes of chicken, peanuts, vegetables, and chili peppers. 
         The classic dish in Sichuan cuisine originated in the Sichuan Province of south-western China. 
         <br>
         Although the dish is found throughout China, there are regional variations that are typically less spicy than the Sichuan serving. 
@@ -113,7 +113,7 @@ tombSweepingFestival.addEventListener("click", updateFestival1);
         The meat is characterized by its thin, crisp skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook. 
         The meat is often eaten with spring onion, cucumber and sweet bean sauce with pancakes rolled around the fillings.
         <br>
-        Two notable restaurants in Beijing which serve this dish are <i>Quanjude</i> and <i>Bianyifang</i>, 
+        Two notable restaurants in Beijing which serve this dish are Quanjude and Bianyifang, 
         both centuries-old establishments which have become household names, each with their own style:
         Quanjude is known for using the hung oven roasting method, while Bianyifang uses the oldest technique of closed oven roasting.`;
     }
